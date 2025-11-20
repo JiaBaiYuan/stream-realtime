@@ -1,0 +1,6 @@
+com\stream\realtime\lululemon\utils\DorisSinkUtils.class
+com\stream\realtime\lululemon\SqlServerToKafkaJob.class
+com\stream\realtime\lululemon\DbusLogETLMetricCalculateV2.class
+com\stream\realtime\lululemon\utils\IKAnalyzerUtils.class
+com\stream\realtime\lululemon\utils\SensitiveDictLoader.class
+com\stream\realtime\lululemon\utils\SensitiveWordUtils.class
