@@ -4383,3 +4383,99 @@ TypeError: '<' not supported between instances of 'int' and 'functools.partial'
 2025-11-20 21:03:33,255 - INFO - Kafka发送完成 - 总条数: 111, 成功: 111, 失败: 0
 2025-11-20 21:03:33,256 - INFO - <BrokerConnection client_id=kafka-python-producer-114, node_id=143 host=cdh02:9092 <connected> [IPv4 ('192.168.200.102', 9092)]>: Closing connection. 
 2025-11-20 21:03:33,257 - INFO - <BrokerConnection client_id=kafka-python-producer-114, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Closing connection. 
+2025-11-20 21:04:13,735 - INFO - 成功插入 82 条记录到 public.logs_user_info_message
+2025-11-20 21:04:13,740 - INFO - <BrokerConnection client_id=kafka-python-producer-115, node_id=bootstrap-2 host=cdh01:9092 <connecting> [IPv4 ('192.168.200.101', 9092)]>: connecting to cdh01:9092 [('192.168.200.101', 9092) IPv4]
+2025-11-20 21:04:13,761 - INFO - <BrokerConnection client_id=kafka-python-producer-115, node_id=bootstrap-2 host=cdh01:9092 <checking_api_versions_recv> [IPv4 ('192.168.200.101', 9092)]>: Broker version identified as 2.2
+2025-11-20 21:04:13,761 - INFO - <BrokerConnection client_id=kafka-python-producer-115, node_id=bootstrap-2 host=cdh01:9092 <connected> [IPv4 ('192.168.200.101', 9092)]>: Connection complete.
+2025-11-20 21:04:13,882 - INFO - <BrokerConnection client_id=kafka-python-producer-115, node_id=144 host=cdh03:9092 <connecting> [IPv4 ('192.168.200.103', 9092)]>: connecting to cdh03:9092 [('192.168.200.103', 9092) IPv4]
+2025-11-20 21:04:13,895 - INFO - <BrokerConnection client_id=kafka-python-producer-115, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Connection complete.
+2025-11-20 21:04:13,895 - INFO - <BrokerConnection client_id=kafka-python-producer-115, node_id=bootstrap-2 host=cdh01:9092 <connected> [IPv4 ('192.168.200.101', 9092)]>: Closing connection. 
+2025-11-20 21:04:14,249 - INFO - Kafka发送完成 - 总条数: 82, 成功: 82, 失败: 0
+2025-11-20 21:04:14,250 - INFO - <BrokerConnection client_id=kafka-python-producer-115, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Closing connection. 
+2025-11-20 21:04:54,871 - INFO - 成功插入 94 条记录到 public.logs_user_info_message
+2025-11-20 21:04:54,887 - INFO - <BrokerConnection client_id=kafka-python-producer-116, node_id=bootstrap-0 host=cdh03:9092 <connecting> [IPv4 ('192.168.200.103', 9092)]>: connecting to cdh03:9092 [('192.168.200.103', 9092) IPv4]
+2025-11-20 21:04:54,904 - INFO - <BrokerConnection client_id=kafka-python-producer-116, node_id=bootstrap-0 host=cdh03:9092 <checking_api_versions_recv> [IPv4 ('192.168.200.103', 9092)]>: Broker version identified as 2.2
+2025-11-20 21:04:54,905 - INFO - <BrokerConnection client_id=kafka-python-producer-116, node_id=bootstrap-0 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Connection complete.
+2025-11-20 21:04:55,029 - INFO - <BrokerConnection client_id=kafka-python-producer-116, node_id=144 host=cdh03:9092 <connecting> [IPv4 ('192.168.200.103', 9092)]>: connecting to cdh03:9092 [('192.168.200.103', 9092) IPv4]
+2025-11-20 21:04:55,032 - INFO - <BrokerConnection client_id=kafka-python-producer-116, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Connection complete.
+2025-11-20 21:04:55,033 - INFO - <BrokerConnection client_id=kafka-python-producer-116, node_id=bootstrap-0 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Closing connection. 
+2025-11-20 21:04:55,703 - INFO - Kafka发送完成 - 总条数: 94, 成功: 94, 失败: 0
+2025-11-20 21:04:55,705 - INFO - <BrokerConnection client_id=kafka-python-producer-116, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Closing connection. 
+2025-11-20 21:05:36,324 - INFO - 成功插入 75 条记录到 public.logs_user_info_message
+2025-11-20 21:05:36,329 - INFO - <BrokerConnection client_id=kafka-python-producer-117, node_id=bootstrap-0 host=cdh01:9092 <connecting> [IPv4 ('192.168.200.101', 9092)]>: connecting to cdh01:9092 [('192.168.200.101', 9092) IPv4]
+2025-11-20 21:05:36,344 - INFO - <BrokerConnection client_id=kafka-python-producer-117, node_id=bootstrap-0 host=cdh01:9092 <checking_api_versions_recv> [IPv4 ('192.168.200.101', 9092)]>: Broker version identified as 2.2
+2025-11-20 21:05:36,345 - INFO - <BrokerConnection client_id=kafka-python-producer-117, node_id=bootstrap-0 host=cdh01:9092 <connected> [IPv4 ('192.168.200.101', 9092)]>: Connection complete.
+2025-11-20 21:05:36,456 - INFO - <BrokerConnection client_id=kafka-python-producer-117, node_id=144 host=cdh03:9092 <connecting> [IPv4 ('192.168.200.103', 9092)]>: connecting to cdh03:9092 [('192.168.200.103', 9092) IPv4]
+2025-11-20 21:05:36,459 - INFO - <BrokerConnection client_id=kafka-python-producer-117, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Connection complete.
+2025-11-20 21:05:36,460 - INFO - <BrokerConnection client_id=kafka-python-producer-117, node_id=bootstrap-0 host=cdh01:9092 <connected> [IPv4 ('192.168.200.101', 9092)]>: Closing connection. 
+2025-11-20 21:05:36,910 - INFO - Kafka发送完成 - 总条数: 75, 成功: 75, 失败: 0
+2025-11-20 21:05:36,912 - INFO - <BrokerConnection client_id=kafka-python-producer-117, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Closing connection. 
+2025-11-20 21:06:47,641 - INFO - 成功插入 142 条记录到 public.logs_user_info_message
+2025-11-20 21:06:47,645 - INFO - <BrokerConnection client_id=kafka-python-producer-118, node_id=bootstrap-1 host=cdh03:9092 <connecting> [IPv4 ('192.168.200.103', 9092)]>: connecting to cdh03:9092 [('192.168.200.103', 9092) IPv4]
+2025-11-20 21:06:47,664 - INFO - <BrokerConnection client_id=kafka-python-producer-118, node_id=bootstrap-1 host=cdh03:9092 <checking_api_versions_recv> [IPv4 ('192.168.200.103', 9092)]>: Broker version identified as 2.2
+2025-11-20 21:06:47,665 - INFO - <BrokerConnection client_id=kafka-python-producer-118, node_id=bootstrap-1 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Connection complete.
+2025-11-20 21:06:47,782 - INFO - <BrokerConnection client_id=kafka-python-producer-118, node_id=143 host=cdh02:9092 <connecting> [IPv4 ('192.168.200.102', 9092)]>: connecting to cdh02:9092 [('192.168.200.102', 9092) IPv4]
+2025-11-20 21:06:47,785 - INFO - <BrokerConnection client_id=kafka-python-producer-118, node_id=143 host=cdh02:9092 <connected> [IPv4 ('192.168.200.102', 9092)]>: Connection complete.
+2025-11-20 21:06:47,786 - INFO - <BrokerConnection client_id=kafka-python-producer-118, node_id=bootstrap-1 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Closing connection. 
+2025-11-20 21:06:47,795 - INFO - <BrokerConnection client_id=kafka-python-producer-118, node_id=144 host=cdh03:9092 <connecting> [IPv4 ('192.168.200.103', 9092)]>: connecting to cdh03:9092 [('192.168.200.103', 9092) IPv4]
+2025-11-20 21:06:47,798 - INFO - <BrokerConnection client_id=kafka-python-producer-118, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Connection complete.
+2025-11-20 21:06:48,719 - INFO - Kafka发送完成 - 总条数: 142, 成功: 142, 失败: 0
+2025-11-20 21:06:48,721 - INFO - <BrokerConnection client_id=kafka-python-producer-118, node_id=143 host=cdh02:9092 <connected> [IPv4 ('192.168.200.102', 9092)]>: Closing connection. 
+2025-11-20 21:06:48,722 - INFO - <BrokerConnection client_id=kafka-python-producer-118, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Closing connection. 
+2025-11-20 21:07:29,238 - INFO - 成功插入 86 条记录到 public.logs_user_info_message
+2025-11-20 21:07:29,243 - INFO - <BrokerConnection client_id=kafka-python-producer-119, node_id=bootstrap-2 host=cdh01:9092 <connecting> [IPv4 ('192.168.200.101', 9092)]>: connecting to cdh01:9092 [('192.168.200.101', 9092) IPv4]
+2025-11-20 21:07:29,257 - INFO - <BrokerConnection client_id=kafka-python-producer-119, node_id=bootstrap-2 host=cdh01:9092 <checking_api_versions_recv> [IPv4 ('192.168.200.101', 9092)]>: Broker version identified as 2.2
+2025-11-20 21:07:29,258 - INFO - <BrokerConnection client_id=kafka-python-producer-119, node_id=bootstrap-2 host=cdh01:9092 <connected> [IPv4 ('192.168.200.101', 9092)]>: Connection complete.
+2025-11-20 21:07:29,378 - INFO - <BrokerConnection client_id=kafka-python-producer-119, node_id=144 host=cdh03:9092 <connecting> [IPv4 ('192.168.200.103', 9092)]>: connecting to cdh03:9092 [('192.168.200.103', 9092) IPv4]
+2025-11-20 21:07:29,382 - INFO - <BrokerConnection client_id=kafka-python-producer-119, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Connection complete.
+2025-11-20 21:07:29,383 - INFO - <BrokerConnection client_id=kafka-python-producer-119, node_id=bootstrap-2 host=cdh01:9092 <connected> [IPv4 ('192.168.200.101', 9092)]>: Closing connection. 
+2025-11-20 21:07:29,923 - INFO - Kafka发送完成 - 总条数: 86, 成功: 86, 失败: 0
+2025-11-20 21:07:29,925 - INFO - <BrokerConnection client_id=kafka-python-producer-119, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Closing connection. 
+2025-11-20 21:08:11,543 - INFO - 成功插入 84 条记录到 public.logs_user_info_message
+2025-11-20 21:08:11,548 - INFO - <BrokerConnection client_id=kafka-python-producer-120, node_id=bootstrap-1 host=cdh02:9092 <connecting> [IPv4 ('192.168.200.102', 9092)]>: connecting to cdh02:9092 [('192.168.200.102', 9092) IPv4]
+2025-11-20 21:08:11,582 - INFO - <BrokerConnection client_id=kafka-python-producer-120, node_id=bootstrap-1 host=cdh02:9092 <checking_api_versions_recv> [IPv4 ('192.168.200.102', 9092)]>: Broker version identified as 2.2
+2025-11-20 21:08:11,582 - INFO - <BrokerConnection client_id=kafka-python-producer-120, node_id=bootstrap-1 host=cdh02:9092 <connected> [IPv4 ('192.168.200.102', 9092)]>: Connection complete.
+2025-11-20 21:08:11,696 - INFO - <BrokerConnection client_id=kafka-python-producer-120, node_id=142 host=cdh01:9092 <connecting> [IPv4 ('192.168.200.101', 9092)]>: connecting to cdh01:9092 [('192.168.200.101', 9092) IPv4]
+2025-11-20 21:08:11,702 - INFO - <BrokerConnection client_id=kafka-python-producer-120, node_id=142 host=cdh01:9092 <connected> [IPv4 ('192.168.200.101', 9092)]>: Connection complete.
+2025-11-20 21:08:11,703 - INFO - <BrokerConnection client_id=kafka-python-producer-120, node_id=bootstrap-1 host=cdh02:9092 <connected> [IPv4 ('192.168.200.102', 9092)]>: Closing connection. 
+2025-11-20 21:08:11,716 - INFO - <BrokerConnection client_id=kafka-python-producer-120, node_id=144 host=cdh03:9092 <connecting> [IPv4 ('192.168.200.103', 9092)]>: connecting to cdh03:9092 [('192.168.200.103', 9092) IPv4]
+2025-11-20 21:08:11,719 - INFO - <BrokerConnection client_id=kafka-python-producer-120, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Connection complete.
+2025-11-20 21:08:12,214 - INFO - Kafka发送完成 - 总条数: 84, 成功: 84, 失败: 0
+2025-11-20 21:08:12,217 - INFO - <BrokerConnection client_id=kafka-python-producer-120, node_id=142 host=cdh01:9092 <connected> [IPv4 ('192.168.200.101', 9092)]>: Closing connection. 
+2025-11-20 21:08:12,217 - INFO - <BrokerConnection client_id=kafka-python-producer-120, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Closing connection. 
+2025-11-20 21:08:52,725 - INFO - 成功插入 71 条记录到 public.logs_user_info_message
+2025-11-20 21:08:52,735 - INFO - <BrokerConnection client_id=kafka-python-producer-121, node_id=bootstrap-0 host=cdh01:9092 <connecting> [IPv4 ('192.168.200.101', 9092)]>: connecting to cdh01:9092 [('192.168.200.101', 9092) IPv4]
+2025-11-20 21:08:52,752 - INFO - <BrokerConnection client_id=kafka-python-producer-121, node_id=bootstrap-0 host=cdh01:9092 <checking_api_versions_recv> [IPv4 ('192.168.200.101', 9092)]>: Broker version identified as 2.2
+2025-11-20 21:08:52,753 - INFO - <BrokerConnection client_id=kafka-python-producer-121, node_id=bootstrap-0 host=cdh01:9092 <connected> [IPv4 ('192.168.200.101', 9092)]>: Connection complete.
+2025-11-20 21:08:52,877 - INFO - <BrokerConnection client_id=kafka-python-producer-121, node_id=143 host=cdh02:9092 <connecting> [IPv4 ('192.168.200.102', 9092)]>: connecting to cdh02:9092 [('192.168.200.102', 9092) IPv4]
+2025-11-20 21:08:52,881 - INFO - <BrokerConnection client_id=kafka-python-producer-121, node_id=143 host=cdh02:9092 <connected> [IPv4 ('192.168.200.102', 9092)]>: Connection complete.
+2025-11-20 21:08:52,882 - INFO - <BrokerConnection client_id=kafka-python-producer-121, node_id=bootstrap-0 host=cdh01:9092 <connected> [IPv4 ('192.168.200.101', 9092)]>: Closing connection. 
+2025-11-20 21:08:52,892 - INFO - <BrokerConnection client_id=kafka-python-producer-121, node_id=144 host=cdh03:9092 <connecting> [IPv4 ('192.168.200.103', 9092)]>: connecting to cdh03:9092 [('192.168.200.103', 9092) IPv4]
+2025-11-20 21:08:52,894 - INFO - <BrokerConnection client_id=kafka-python-producer-121, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Connection complete.
+2025-11-20 21:08:53,430 - INFO - Kafka发送完成 - 总条数: 71, 成功: 71, 失败: 0
+2025-11-20 21:08:53,433 - INFO - <BrokerConnection client_id=kafka-python-producer-121, node_id=143 host=cdh02:9092 <connected> [IPv4 ('192.168.200.102', 9092)]>: Closing connection. 
+2025-11-20 21:08:53,434 - INFO - <BrokerConnection client_id=kafka-python-producer-121, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Closing connection. 
+2025-11-20 21:10:02,140 - INFO - 成功插入 126 条记录到 public.logs_user_info_message
+2025-11-20 21:10:02,146 - INFO - <BrokerConnection client_id=kafka-python-producer-122, node_id=bootstrap-0 host=cdh02:9092 <connecting> [IPv4 ('192.168.200.102', 9092)]>: connecting to cdh02:9092 [('192.168.200.102', 9092) IPv4]
+2025-11-20 21:10:02,161 - INFO - <BrokerConnection client_id=kafka-python-producer-122, node_id=bootstrap-0 host=cdh02:9092 <checking_api_versions_recv> [IPv4 ('192.168.200.102', 9092)]>: Broker version identified as 2.2
+2025-11-20 21:10:02,161 - INFO - <BrokerConnection client_id=kafka-python-producer-122, node_id=bootstrap-0 host=cdh02:9092 <connected> [IPv4 ('192.168.200.102', 9092)]>: Connection complete.
+2025-11-20 21:10:02,282 - INFO - <BrokerConnection client_id=kafka-python-producer-122, node_id=142 host=cdh01:9092 <connecting> [IPv4 ('192.168.200.101', 9092)]>: connecting to cdh01:9092 [('192.168.200.101', 9092) IPv4]
+2025-11-20 21:10:02,284 - INFO - <BrokerConnection client_id=kafka-python-producer-122, node_id=142 host=cdh01:9092 <connected> [IPv4 ('192.168.200.101', 9092)]>: Connection complete.
+2025-11-20 21:10:02,285 - INFO - <BrokerConnection client_id=kafka-python-producer-122, node_id=bootstrap-0 host=cdh02:9092 <connected> [IPv4 ('192.168.200.102', 9092)]>: Closing connection. 
+2025-11-20 21:10:02,293 - INFO - <BrokerConnection client_id=kafka-python-producer-122, node_id=144 host=cdh03:9092 <connecting> [IPv4 ('192.168.200.103', 9092)]>: connecting to cdh03:9092 [('192.168.200.103', 9092) IPv4]
+2025-11-20 21:10:02,296 - INFO - <BrokerConnection client_id=kafka-python-producer-122, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Connection complete.
+2025-11-20 21:10:03,085 - INFO - Kafka发送完成 - 总条数: 126, 成功: 126, 失败: 0
+2025-11-20 21:10:03,087 - INFO - <BrokerConnection client_id=kafka-python-producer-122, node_id=142 host=cdh01:9092 <connected> [IPv4 ('192.168.200.101', 9092)]>: Closing connection. 
+2025-11-20 21:10:03,087 - INFO - <BrokerConnection client_id=kafka-python-producer-122, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Closing connection. 
+2025-11-20 21:10:43,631 - INFO - 成功插入 81 条记录到 public.logs_user_info_message
+2025-11-20 21:10:43,639 - INFO - <BrokerConnection client_id=kafka-python-producer-123, node_id=bootstrap-1 host=cdh02:9092 <connecting> [IPv4 ('192.168.200.102', 9092)]>: connecting to cdh02:9092 [('192.168.200.102', 9092) IPv4]
+2025-11-20 21:10:43,656 - INFO - <BrokerConnection client_id=kafka-python-producer-123, node_id=bootstrap-1 host=cdh02:9092 <checking_api_versions_recv> [IPv4 ('192.168.200.102', 9092)]>: Broker version identified as 2.2
+2025-11-20 21:10:43,656 - INFO - <BrokerConnection client_id=kafka-python-producer-123, node_id=bootstrap-1 host=cdh02:9092 <connected> [IPv4 ('192.168.200.102', 9092)]>: Connection complete.
+2025-11-20 21:10:43,779 - INFO - <BrokerConnection client_id=kafka-python-producer-123, node_id=142 host=cdh01:9092 <connecting> [IPv4 ('192.168.200.101', 9092)]>: connecting to cdh01:9092 [('192.168.200.101', 9092) IPv4]
+2025-11-20 21:10:43,783 - INFO - <BrokerConnection client_id=kafka-python-producer-123, node_id=142 host=cdh01:9092 <connected> [IPv4 ('192.168.200.101', 9092)]>: Connection complete.
+2025-11-20 21:10:43,783 - INFO - <BrokerConnection client_id=kafka-python-producer-123, node_id=bootstrap-1 host=cdh02:9092 <connected> [IPv4 ('192.168.200.102', 9092)]>: Closing connection. 
+2025-11-20 21:10:43,792 - INFO - <BrokerConnection client_id=kafka-python-producer-123, node_id=144 host=cdh03:9092 <connecting> [IPv4 ('192.168.200.103', 9092)]>: connecting to cdh03:9092 [('192.168.200.103', 9092) IPv4]
+2025-11-20 21:10:43,794 - INFO - <BrokerConnection client_id=kafka-python-producer-123, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Connection complete.
+2025-11-20 21:10:44,197 - INFO - Kafka发送完成 - 总条数: 81, 成功: 81, 失败: 0
+2025-11-20 21:10:44,199 - INFO - <BrokerConnection client_id=kafka-python-producer-123, node_id=142 host=cdh01:9092 <connected> [IPv4 ('192.168.200.101', 9092)]>: Closing connection. 
+2025-11-20 21:10:44,199 - INFO - <BrokerConnection client_id=kafka-python-producer-123, node_id=144 host=cdh03:9092 <connected> [IPv4 ('192.168.200.103', 9092)]>: Closing connection. 
